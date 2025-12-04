@@ -4,10 +4,10 @@
 
 ## Why this repo exists
 
-- 📣 **Open story:** Explain what the app does, who it serves, and why we obsess over mobile-first learning.
-- 🧭 **Curriculum tree:** Show parents, teachers, and partners how each topic stacks on the previous one.
-- 🧪 **Practice-first:** Publish real exercises, snippets, and walkthroughs you can run on any phone or browser.
-- 🤝 **Community-friendly:** Make it easy to request lessons, report bugs, and share wins without digging through private code.
+-  **Open story:** Explain what the app does, who it serves, and why we obsess over mobile-first learning.
+-  **Curriculum tree:** Show parents, teachers, and partners how each topic stacks on the previous one.
+-  **Practice-first:** Publish real exercises, snippets, and walkthroughs you can run on any phone or browser.
+-  **Community-friendly:** Make it easy to request lessons, report bugs, and share wins without digging through private code.
 
 ## What is Wáàlá?
 
