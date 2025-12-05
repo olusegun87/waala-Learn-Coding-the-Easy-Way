@@ -1,6 +1,6 @@
 # Python Lesson Library Overview
 
-Mirror of the [waala.dev Lesson Library](https://www.waala.dev/learn/library). It gives mentors, parents, and contributors a human-readable tour of every daily drop inside the **Python Basics** program (84 total). Each entry pairs the day number, title, and quick intent so you can find the right lesson fast or draft GitHub practice files to match.
+Mirror of the [waala.dev Lesson Library](https://www.waala.dev/learn/library). It gives mentors, parents, and contributors a human-readable tour of every daily drop inside the **Python Basics** program (84 total). Each entry pairs the day number, title, and quick intent so you can find the right lesson fast or draft GitHub practice files to match. When we add `/curriculum/python-for-kids/week-XX` folders, these summaries will map 1:1 with the practice files inside each week.
 
 ---
 
@@ -10,39 +10,9 @@ Mirror of the [waala.dev Lesson Library](https://www.waala.dev/learn/library). I
 - **Day 2: Variables** — Teach variable creation, naming rules, updating values.
 - **Day 3: Data Types** — Teach ints, floats, strings and conversions.
 - **Day 4: Input** — Explain input(), type conversion.
-- **Day 5: Operators** — Teach +, -, *, /, %.
+- **Day 5: Operators** — Teach +, -, \*, /, %.
 - **Day 6: Debug Day** — Fix common beginner errors.
 - **Day 7: Week 1 Recap** — 5-10 min recap + project.
-
-## Week 10 (Days 64–70)
-
-- **Day 64: Encapsulation & Private Attributes** — Teach the concept of encapsulation using soft-private (_) and hard-private (__) attributes.
-- **Day 65: Getters & Setters** — Teach how to safely access and modify private attributes using get/set methods.
-- **Day 66: Properties with @property** — Teach Python’s property decorator for cleaner getters/setters.
-- **Day 67: Class Methods & Static Methods** — Teach @classmethod for alternative constructors and @staticmethod for helpers.
-- **Day 68: Magic Methods (Dunder Methods)** — Teach dunder methods like __str__, __len__, and __add__.
-- **Day 69: Composition: Objects Inside Objects** — Teach composition as an alternative to inheritance.
-- **Day 70: Week 10 Recap** — Review advanced OOP concepts with a shopping cart project.
-
-## Week 11 (Days 71–77)
-
-- **Day 71: What Is an Algorithm?** — Introduce the concept of algorithms as clear step-by-step instructions to solve a problem, using simple real-life and code examples.
-- **Day 72: Time Complexity Basics (O(1), O(n), O(n²))** — Explain, in a very simple and visual way, that different algorithms can be faster or slower using O(1), O(n), and O(n²).
-- **Day 73: Searching: Linear Search vs Binary Search** — Teach linear search and binary search, highlighting when each is used and why binary search is faster on sorted data.
-- **Day 74: Sorting: Bubble Sort vs Built-in sort()** — Explain bubble sort to build algorithmic thinking, then show why Python's built-in sort() is preferred in practice.
-- **Day 75: Recursion: Functions That Call Themselves** — Introduce recursion using simple, safe examples like countdown and sum of 1..n.
-- **Day 76: Algorithmic Thinking: Breaking Problems Into Steps** — Train students to break a big problem into smaller clear steps, using examples like reversing a string or removing duplicates.
-- **Day 77: Week 11 Recap: Word Frequency Analyzer Project** — Review core algorithm ideas by building a word frequency analyzer that counts how many times each word appears.
-
-## Week 12 (Days 78–84)
-
-- **Day 78: Real-World Data: Quick File Review** — Reinforce basic text file reading and writing as the foundation for working with CSV, JSON, and API data.
-- **Day 79: CSV Files: Reading & Writing Spreadsheet Data** — Introduce CSV files and how to read and write them using Python's csv module.
-- **Day 80: JSON Files: The Language of APIs** — Introduce JSON format and show how to save and load JSON with Python's json module.
-- **Day 81: APIs 101: Request and Response** — Explain what an API is and show how to make a simple GET request and parse JSON using requests.
-- **Day 82: API Query Parameters: Customising Your Request** — Show how to use query parameters like ?limit= to control the data returned by an API.
-- **Day 83: Mini Project: Simple API Data Viewer** — Build a small script that calls an API, loops through results, and prints them in a friendly way.
-- **Day 84: Week 12 Recap: Console Data Dashboard** — Combine CSV, JSON, and API data in one small console-based dashboard script.
 
 ## Week 2 (Days 8–14)
 
@@ -117,9 +87,39 @@ Mirror of the [waala.dev Lesson Library](https://www.waala.dev/learn/library). I
 ## Week 9 (Days 57–63)
 
 - **Day 57: What Is a Class? What Is an Object?** — Introduce classes as blueprints and objects as instances, with a first simple class.
-- **Day 58: __init__ and self (Constructors)** — Teach how to use __init__ and self to initialize object attributes.
+- **Day 58: **init** and self (Constructors)** — Teach how to use **init** and self to initialize object attributes.
 - **Day 59: Methods: Functions Inside Classes** — Show how to define and use methods on objects.
 - **Day 60: Multiple Objects & Updating State** — Show how multiple objects of the same class maintain their own independent data.
 - **Day 61: Mini Project: Student with Average Score** — Use attributes and methods to build a small Student class that tracks scores and averages.
 - **Day 62: Simple Inheritance (Child Classes)** — Introduce inheritance so one class can reuse and extend another.
 - **Day 63: Week 9 Recap** — Review OOP concepts with a game-style Character project.
+
+## Week 10 (Days 64–70)
+
+- **Day 64: Encapsulation & Private Attributes** — Teach the concept of encapsulation using soft-private (\_) and hard-private (\_\_) attributes.
+- **Day 65: Getters & Setters** — Teach how to safely access and modify private attributes using get/set methods.
+- **Day 66: Properties with @property** — Teach Python’s property decorator for cleaner getters/setters.
+- **Day 67: Class Methods & Static Methods** — Teach @classmethod for alternative constructors and @staticmethod for helpers.
+- **Day 68: Magic Methods (Dunder Methods)** — Teach dunder methods like **str**, **len**, and **add**.
+- **Day 69: Composition: Objects Inside Objects** — Teach composition as an alternative to inheritance.
+- **Day 70: Week 10 Recap** — Review advanced OOP concepts with a shopping cart project.
+
+## Week 11 (Days 71–77)
+
+- **Day 71: What Is an Algorithm?** — Introduce the concept of algorithms as clear step-by-step instructions to solve a problem, using simple real-life and code examples.
+- **Day 72: Time Complexity Basics (O(1), O(n), O(n²))** — Explain, in a very simple and visual way, that different algorithms can be faster or slower using O(1), O(n), and O(n²).
+- **Day 73: Searching: Linear Search vs Binary Search** — Teach linear search and binary search, highlighting when each is used and why binary search is faster on sorted data.
+- **Day 74: Sorting: Bubble Sort vs Built-in sort()** — Explain bubble sort to build algorithmic thinking, then show why Python's built-in sort() is preferred in practice.
+- **Day 75: Recursion: Functions That Call Themselves** — Introduce recursion using simple, safe examples like countdown and sum of 1..n.
+- **Day 76: Algorithmic Thinking: Breaking Problems Into Steps** — Train students to break a big problem into smaller clear steps, using examples like reversing a string or removing duplicates.
+- **Day 77: Week 11 Recap: Word Frequency Analyzer Project** — Review core algorithm ideas by building a word frequency analyzer that counts how many times each word appears.
+
+## Week 12 (Days 78–84)
+
+- **Day 78: Real-World Data: Quick File Review** — Reinforce basic text file reading and writing as the foundation for working with CSV, JSON, and API data.
+- **Day 79: CSV Files: Reading & Writing Spreadsheet Data** — Introduce CSV files and how to read and write them using Python's csv module.
+- **Day 80: JSON Files: The Language of APIs** — Introduce JSON format and show how to save and load JSON with Python's json module.
+- **Day 81: APIs 101: Request and Response** — Explain what an API is and show how to make a simple GET request and parse JSON using requests.
+- **Day 82: API Query Parameters: Customising Your Request** — Show how to use query parameters like ?limit= to control the data returned by an API.
+- **Day 83: Mini Project: Simple API Data Viewer** — Build a small script that calls an API, loops through results, and prints them in a friendly way.
+- **Day 84: Week 12 Recap: Console Data Dashboard** — Combine CSV, JSON, and API data in one small console-based dashboard script.
